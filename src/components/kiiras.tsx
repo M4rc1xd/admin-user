@@ -20,15 +20,15 @@ export default function ItalListazas(props: ItalListazasProps) {
           </tr>
         </thead>
         <tbody>
-          {props.italok.map((ital, index) => (
-            <tr key={index}>
+          {props.italok.map((ital) => (
+            <tr key={ital.id}>
               <td>{ital.nev}</td>
               <td>{ital.marka}</td>
               <td>{ital.ar}</td>
               <td>{ital.mennyiseg}</td>
               <td>{new Date(ital.lejar).toISOString().split('T')[0]}</td>
               <td>{(ital.szensavas ? 'Igen' : 'Nem')}{props.oldal !== "user" && <input type="checkbox" checked={ital.szensavas} onChange={() =>
-                      ital.szensavas = !ital.szensavas
+                      props.italok[ital.id].szensavas = !props.italok[ital.id].szensavas
                     }/>}</td>
             </tr>
           ))}
