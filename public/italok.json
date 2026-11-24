@@ -1,0 +1,95 @@
+{
+  "italok": [
+    {
+      "id": 1,
+      "nev": "Cola",
+      "marka": "Coca-Cola",
+      "ar": 590,
+      "mennyiseg": 330,
+      "lejar" : "2024-12-31",
+      "szensavas": true
+  },
+  {
+    "id": 2,
+    "nev": "Narancslé",
+    "marka": "Rauch",
+    "ar": 690,
+    "mennyiseg": 500,
+    "lejar" : "2024-12-31",
+    "szensavas": false
+  },
+  {
+    "id": 3,
+    "nev": "Ásványvíz",
+    "marka": "Theodora",
+    "ar": 450,
+    "mennyiseg": 500,
+    "lejar" : "2024-12-31",
+    "szensavas": true
+  },
+  {
+    "id": 4,
+    "nev": "Jeges tea",
+    "marka": "Lipton",
+    "ar": 620,
+    "mennyiseg": 330,
+    "lejar" : "2024-12-31",
+    "szensavas": false
+  },
+  {
+    "id": 5,
+    "nev": "Energiaital",
+    "marka": "Red Bull",
+    "ar": 890,
+    "mennyiseg": 250,
+    "lejar" : "2024-12-31",
+    "szensavas": true
+  },
+  {
+    "id": 6,
+    "nev": "Kakaó",
+    "marka": "Mizo",
+    "ar": 390,
+    "mennyiseg": 250,
+    "lejar": "2026-10-15",
+    "szensavas": false
+  },
+  {
+    "id": 7,
+    "nev": "Almalé",
+    "marka": "Happy Day",
+    "ar": 720,
+    "mennyiseg": 1000,
+    "lejar": "2026-11-30",
+    "szensavas": false
+  },
+  {
+    "id": 8,
+    "nev": "Citromos szódavíz",
+    "marka": "Márka",
+    "ar": 420,
+    "mennyiseg": 500,
+    "lejar": "2026-12-20",
+    "szensavas": true
+  },
+  {
+    "id": 9,
+    "nev": "Szénsavas üdítő",
+    "marka": "Fanta",
+    "ar": 610,
+    "mennyiseg": 330,
+    "lejar": "2026-09-18",
+    "szensavas": true
+  },
+  {
+    "id": 10,
+    "nev": "Barackos jegestea",
+    "marka": "Nestea",
+    "ar": 640,
+    "mennyiseg": 500,
+    "lejar": "2026-08-25",
+    "szensavas": false
+  }
+]
+
+}
